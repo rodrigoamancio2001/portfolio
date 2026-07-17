@@ -24,6 +24,8 @@
                 <a href="about.html">ABOUT</a>
                 <a href="#contact-page">CONTACT</a>
             </div>
+
+            <div class="mobile-menu-toggle" id="mobile-menu-toggle">+</div>
             
             <label class="switch-button">
                 <input type="checkbox" id="switch">
@@ -36,6 +38,12 @@
             <script src="darkmode.js"></script>
 
         </header>
+
+        <!--MENU MOBILE-->
+        <div class="mobile-menu-overlay" id="mobile-menu-overlay">
+            <div class="mobile-menu-links" id="mobile-menu-links"></div>
+            <div class="mobile-menu-switch" id="mobile-menu-switch"></div>
+        </div>
 
         <!--JOURNEY-->
         <div class="container-about">
@@ -54,7 +62,7 @@
                 <div>YEAR</div><div>DEGREE</div><div>SCHOOL</div>
             </div>
             <div class="experience-info">
-                <div>2022 - 2025</div><div>Master of Communication Design<br>Master’s thesis: <a href="http://hdl.handle.net/10400.5/100706" target="_blank" rel="noopener noreferrer">Design, lugar de estranheza:<br>entre a ficção e o pensamento queer e feminista ↗</a></div><div>Faculdade de Belas-Artes da ULisboa</div>
+                <div>2022 - 2025</div><div>Master of Communication Design<br>Master’s thesis: <a href="http://hdl.handle.net/10400.5/100706" target="_blank" rel="noopener noreferrer">Design, lugar de estranheza: entre a ficção e o pensamento queer e feminista ↗</a></div><div>Faculdade de Belas-Artes da ULisboa</div>
             </div>
             <div class="experience-info">
                 <div>2019 - 2022</div><div>Bachelor of Communication Design</div><div>Faculdade de Belas-Artes da ULisboa</div>
@@ -97,29 +105,29 @@
 
                 <div class="skills">SOFTWARE</div>
                 <div class="skills-info">
-                    <div>Adobe Creative Cloud</div><div>HTML, CSS, JavaScript</div>
+                    <div class="mobile-about-info">Adobe Creative Cloud</div><div>HTML, CSS, JavaScript</div>
                 </div>
                 <div class="skills-info">
-                    <div>Figma</div><div>Framer</div>
+                    <div class="mobile-about-info">Figma</div><div>Framer</div>
                 </div>
                 <div class="skills-info">
-                    <div>Wordpress</div><div>Webflow</div>
+                    <div class="mobile-about-info">Wordpress</div><div>Webflow</div>
                 </div>
 
                 <div class="skills">SOFT SKILLS</div>
                 <div class="skills-info">
-                    <div>Creativity</div><div>Communication</div>
+                    <div class="mobile-about-info">Creativity</div><div>Communication</div>
                 </div>
                 <div class="skills-info">
-                    <div>Problem-solving</div><div>Teamwork</div>
+                    <div class="mobile-about-info">Problem-solving</div><div>Teamwork</div>
                 </div>
                 <div class="skills-info">
-                    <div>Critical thought</div><div>Proactivity</div>
+                    <div class="mobile-about-info">Critical thought</div><div>Proactivity</div>
                 </div>
 
                 <div class="skills">LANGUAGES</div>
                 <div class="languages-info">
-                    <div>Portuguese (Native)</div><div>English (C1 • Advanced)</div><div>French (A2 • Basic)</div>
+                    <div class="mobile-about-info">Portuguese (Native)</div><div class="mobile-about-info">English (C1 • Advanced)</div><div>French (A2 • Basic)</div>
                 </div>
             </div>
 
@@ -156,7 +164,7 @@
 
         <footer class="about-footer">
             <span>© 2026 RODRIGO AMÂNCIO</span>
-            <span>WEBSITE BY RODRIGO AMÂNCIO</span>
+            <span class="home-footer-right">WEBSITE BY RODRIGO AMÂNCIO</span>
         </footer>
 
 
@@ -165,6 +173,7 @@
             <script src="animation-pages-about.js"></script>
             <script src="name-footer.js"></script>
             <script src="cursor-name-footer.js"></script>
+            <script src="mobile-menu.js"></script>
 
     </body>
 </html>
