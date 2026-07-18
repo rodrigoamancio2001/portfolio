@@ -1198,6 +1198,16 @@ body:has(#switch:checked) {
 
 @media (max-width: 768px) {
 
+/**//**//**//**//**//* buttons highlight *//**//**//**//**//**/
+    * {
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    a:focus:not(:focus-visible),
+    button:focus:not(:focus-visible) {
+        outline: none;
+    }
+
 /**//**//**//**//**//* scroll container *//**//**//**//**//**/
     .scroll-container {
         flex-direction: column;
@@ -1207,7 +1217,7 @@ body:has(#switch:checked) {
         min-height: 100vh;
         overflow-x: hidden;
         overflow-y: auto;
-        padding: 65px 18px 0px; /* ajusta conforme a altura do menu */
+        padding: 63px 18px 0px; /* ajusta conforme a altura do menu */
         gap: 12px;
     }
 
