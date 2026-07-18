@@ -1,16 +1,15 @@
-// Apenas ativa o smooth scroll em dispositivos com rato/trackpad
-if (window.matchMedia("(hover: hover)").matches) {
+// Não executa nada em dispositivos móveis
+if (window.innerWidth <= 768) {
+    console.log("about-scroll desativado no mobile");
+} else {
 
     let target = 0;
     let current = 0;
     const speed = 0.08;
 
-    // Se houver uma âncora na URL
     if (window.location.hash) {
         const el = document.querySelector(window.location.hash);
-        if (el) {
-            target = el.offsetTop;
-        }
+        if (el) target = el.offsetTop;
     }
 
     current = target;
@@ -33,7 +32,6 @@ if (window.matchMedia("(hover: hover)").matches) {
 
     smooth();
 
-    // Corrigir âncoras internas
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener("click", function (e) {
 
