@@ -1411,6 +1411,7 @@ body:has(#switch:checked) {
 
     .keep-in-touch {
         width: 90%;
+        margin-top: 290px;
     }
 
 /**//**//**//**//**//* about footer *//**//**//**//**//**/
@@ -1429,7 +1430,7 @@ body:has(#switch:checked) {
         flex-direction: column;
         align-items: flex-start;
         width: 100%;
-        margin: 80px 18px 0;
+        margin: 100px 18px 0;
         gap: 12px;
         box-sizing: border-box;
     }
@@ -1445,7 +1446,7 @@ body:has(#switch:checked) {
 
     .next-project {
         font-size: 21pt;
-        padding-top: 70px;
+        padding-top: 100px;
     }
 
     .next-project-image a {
@@ -1454,11 +1455,11 @@ body:has(#switch:checked) {
 
 /**//**//**//**//**//* projectos *//**//**//**//**//**/
     .proj-title {
-        font-size: 41pt;
+        font-size: 41.5pt;
         padding-top: 25px;
         padding-left: 4vw;
         padding-right: 4vw;
-        line-height: 38pt;
+        line-height: 38.5pt;
     }
 
     .proj-subtitle {
@@ -1490,14 +1491,14 @@ body:has(#switch:checked) {
         width: 100%;
     }
 
-    .two-images, .three-images, .three-images-mafra, .three-images-to-zoom, .two-images-to-zoom {
+    .two-images, .three-images, .three-images-mafra, .three-images-to-zoom, .two-images-to-zoom, .seven-images {
         grid-template-columns: 1fr;
         padding-left: 4vw;
         padding-right: 4vw;
         row-gap: 15px;
     }
 
-    .two-images img, .two-images video, .three-images img, .three-images-mafra img, .three-images-to-zoom img, .two-images-to-zoom img {
+    .two-images img, .two-images video, .three-images img, .three-images-mafra img, .three-images-to-zoom img, .two-images-to-zoom img, .seven-images img {
         width: 100%;
     }
 
