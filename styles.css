@@ -1321,7 +1321,8 @@ body:has(#switch:checked) {
     }
 
     .mobile-menu-switch .switch-button{
-        transform: scale(1.1);
+        transform: scale(1.2);
+        margin-bottom: 20px;
     }
 
 /**//**//**//**//**//* about *//**//**//**//**//**/
