@@ -1292,7 +1292,7 @@ body:has(#switch:checked) {
 
     .mobile-menu-toggle{
         display: block;
-        margin-top: -5px;
+        margin-top: -4x;
         margin-right: 3px;
         font-size: 18pt;
         cursor: pointer;
@@ -1431,6 +1431,10 @@ body:has(#switch:checked) {
         margin: 40px 18px 0;
         gap: 12px;
         box-sizing: border-box;
+    }
+
+    #cursor-text-footer {
+        display: none;
     }
 
 }
