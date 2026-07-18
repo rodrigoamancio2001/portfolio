@@ -24,6 +24,8 @@
                 <a href="about.html">ABOUT</a>
                 <a href="about.html#contact-page">CONTACT</a>
             </div>
+
+            <div class="mobile-menu-toggle" id="mobile-menu-toggle">+</div>
             
             <label class="switch-button">
                 <input type="checkbox" id="switch">
@@ -36,6 +38,12 @@
             <script src="darkmode.js"></script>
 
         </header>
+
+        <!--MENU MOBILE-->
+        <div class="mobile-menu-overlay" id="mobile-menu-overlay">
+            <div class="mobile-menu-links" id="mobile-menu-links"></div>
+            <div class="mobile-menu-switch" id="mobile-menu-switch"></div>
+        </div>
 
         <!--CONTEÚDO PROJECTO-->
         <div class="first-image">
@@ -112,7 +120,7 @@
         
         <div class="next-project">NEXT PROJECT</div>
         <div class="next-project-image">
-            <a href="metagenesis.html"><img src="img/index4.jpg" alt="metagenesis-next-proj" data-title="METAGENESIS | CROSS-MEDIA"></a>
+            <a href="metagenesis.html"><img src="img/index4.jpg" alt="metagenesis-next-proj" data-title="METAGENESIS | CROSS-MEDIA"><span class="mobile-proj-title"><span class="main-title">Metagenesis </span><span class="category-title"> Cross-media</span></span></a>
         </div>
         <div class="all-work"><a href="index.html">ALL WORK</a></div>
 
@@ -129,7 +137,7 @@
 
         <footer class="about-footer">
             <span>© 2026 RODRIGO AMÂNCIO</span>
-            <span>WEBSITE BY RODRIGO AMÂNCIO</span>
+            <span class="home-footer-right">WEBSITE BY RODRIGO AMÂNCIO</span>
         </footer>
 
 
@@ -140,6 +148,8 @@
 
             <div id="cursor-text-home"></div>
             <script src="cursor-text-next-project.js"></script>
+
+            <script src="mobile-menu.js"></script>
 
     </body>
 </html>
