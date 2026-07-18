@@ -1491,7 +1491,7 @@ body:has(#switch:checked) {
         width: 100%;
     }
 
-    .two-images, .three-images, .three-images-mafra, .three-images-to-zoom, .two-images-to-zoom, .seven-images {
+    .two-images, .three-images, .three-images-mafra, .three-images-to-zoom, .two-images-to-zoom {
         grid-template-columns: 1fr;
         padding-left: 4vw;
         padding-right: 4vw;
@@ -1510,6 +1510,13 @@ body:has(#switch:checked) {
 
     .first-image {
         padding-top: 68px;
+    }
+
+    .seven-images {
+        grid-template-columns: 1fr;
+        padding-left: 25vw;
+        padding-right: 25vw;
+        row-gap: 15px;
     }
 
 }
