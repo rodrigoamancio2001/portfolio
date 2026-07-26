@@ -1191,6 +1191,29 @@ body:has(#switch:checked) {
     transform: translateX(-50%);
 }
 
+.first-image-mobile {
+    display: none;
+}
+
+.one-image-mobile {
+    display: none;
+}
+
+.one-image-mobile-small {
+    display: none;
+}
+
+.one-image-mobile-smaller {
+    display: none;
+}
+
+.one-image-mobile-even-smaller {
+    display: none;
+}
+
+.one-image-mobile-mafra {
+    display: none;
+}
 
 /**//**//**//**//**//* MOBILE *//**//**//**//**//**/
 /**//**//**//**//**//* MOBILE *//**//**//**//**//**/
@@ -1217,7 +1240,7 @@ body:has(#switch:checked) {
         min-height: 100vh;
         overflow-x: hidden;
         overflow-y: auto;
-        padding: 63px 18px 0px; /* ajusta conforme a altura do menu */
+        padding: 68px 18px 0px; /* ajusta conforme a altura do menu */
         gap: 12px;
     }
 
@@ -1446,7 +1469,7 @@ body:has(#switch:checked) {
 
     .next-project {
         font-size: 21pt;
-        padding-top: 120px;
+        padding-top: 150px;
     }
 
     .next-project-image a {
@@ -1502,14 +1525,10 @@ body:has(#switch:checked) {
         width: 100%;
     }
 
-    .first-image, .one-image, .video {
+    .first-image-mobile, .one-image-mobile, .video, .one-image-mobile-small, .one-image-mobile-smaller, .one-image-mobile-even-smaller, .one-image-mobile-mafra {
         padding-left: 4vw;
         padding-right: 4vw;
         width: 92vw;
-    }
-
-    .first-image {
-        padding-top: 68px;
     }
 
     .seven-images {
@@ -1517,6 +1536,110 @@ body:has(#switch:checked) {
         padding-left: 25vw;
         padding-right: 25vw;
         row-gap: 15px;
+    }
+
+    .first-image {
+        display: none;
+    }
+
+    .one-image {
+        display: none;
+    }
+
+    .first-image-mobile {
+        display: block;
+        width: 100%;
+        height: 97vh;
+        padding-top: 68px;
+        box-sizing: border-box;
+    }
+
+    .first-image-mobile video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 10px;
+    }
+
+    .one-image-mobile {
+        display: block;
+        width: 100%;
+        height: 85vh;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+
+    .one-image-mobile img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 10px;
+    }
+
+    .one-image-mobile-small {
+        display: block;
+        width: 100%;
+        height: 60vh;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+
+    .one-image-mobile-small img, .one-image-mobile-small video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 10px;
+    }
+
+    .one-image-mobile-smaller {
+        display: block;
+        width: 100%;
+        height: 48vh;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+
+    .one-image-mobile-smaller img, .one-image-mobile-smaller video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 10px;
+    }
+
+    .one-image-mobile-even-smaller {
+        display: block;
+        width: 100%;
+        height: 39vh;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+
+    .one-image-mobile-even-smaller video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 10px;
+    }
+
+    .one-image-mobile-mafra {
+        display: block;
+        width: 100%;
+        height: 78vh;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+
+    .one-image-mobile-mafra img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 10px;
     }
 
 }
