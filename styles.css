@@ -1549,7 +1549,7 @@ body:has(#switch:checked) {
     .first-image-mobile {
         display: block;
         width: 100%;
-        height: 97vh;
+        height: 98vh;
         padding-top: 68px;
         box-sizing: border-box;
     }
